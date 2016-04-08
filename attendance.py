@@ -19,7 +19,8 @@ while True:
     elif entry in ['l', 'L']:
         late = True
 
-   
+    elif entry not in s.keys():
+        print('ID not found; scan again.')
 
     elif entry not in s.keys():
         print('ID not found; scan again.')
