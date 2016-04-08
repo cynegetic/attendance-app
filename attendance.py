@@ -23,7 +23,7 @@ while True:
         print('ID not found; scan again.')
 
     elif entry not in s.keys():
-        print('ID not found; please scan again.')
+        print('ID not found; scan again.')
 
     else:
         print(s[entry]['name'] + ' scanned in at ' + t.strftime('%H:%M\n', t.localtime()))
